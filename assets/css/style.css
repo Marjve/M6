@@ -326,6 +326,7 @@ footer {
 }
 
 .contact-container .contact-form .main-input {
+    padding: 10px 20px;
     width: 525px;
     height: 65px;
     border: 1px solid rgba(117, 70, 74, 0.7);
