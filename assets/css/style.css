@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@400;500;600&family=Anek+Malayalam&family=Cinzel:wght@400;500;600;700;800;900&family=Open+Sans:wght@300;400;600&family=Oswald:wght@400;500;600&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:initial;
+}
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.container{
+    max-width: 1240px;
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Cinzel', serif;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: #3F3232;
+}
+.logo-bold{
+    font-weight: 900;
+    margin-right: 7px;
+}
+.menu nav ul li{
+    font-size:16px;
+    color:  #75464A;
+}
+.menu nav ul li:not(:last-child){
+    margin-right: 48px;
+}
+.menu nav ul .active{
+    font-weight: 700;
+}
+.specials-board{
+    margin-top: 168px;
+    padding-bottom: 348px;
+}
+.specials-board h2{
+    font-weight: 700;
+    font-size: 18px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.specials-board .box-wrapper{
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.specials-board .box-card{
+    background: #F7F5F5;
+    padding: 21px 21px 32px 21px;
+    border: 1px solid rgba(117, 70, 74, 0.7);
+    border-radius: 9.61403px;
+}
+.relative{
+    position: relative;
+}
+.specials-board .box-card h3{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 27px;
+}
+.item-price{
+    position: absolute;
+    right:0;
+    font-weight: initial;
+}
+.specials-board .box-card p{
+    font-size: 12px;
+    margin-top: 7px;
+    text-decoration: underline;
+}
+.specials-board .box-card .new-in-stock{
+    color:#FF0000;
+}
+.specials-board .box-card button{
+    width: 159px;
+    height: 38px;
+    border: 0;
+    background: #3F3232;
+    border-radius: 10px;
+    color:#fff;
+    font-family: 'Cinzel', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 19px;
+}
+.specials-board .more-btn{
+    width: 237px;
+    height: 63px;
+    background: #3F3232;
+    color:#fff;
+    border-radius: 10px;
+    border: 0;
+    font-family: 'Cinzel', serif;
+    position: absolute;
+    right:40px;
+    bottom:188px;
+    font-size: 20px;
+    font-weight: 700;
+}
