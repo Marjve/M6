@@ -56,24 +56,28 @@
                         <input type="email" name="" class="main-input">
                     </li>
                     <li>
-                        <label for="su">Repeat Email</label>
+                        <label for="su">Repeat Email <span class="required">*</span></label>
                         <input type="email" name="" class="main-input">
                     </li>
                 </ul>
                 <ul>
                     <li>
                         <p><label for="su">Text Area</label></p>
-                         <textarea name="text-area" cols="30" rows="10"></textarea>
+                        <textarea name="text-area" placeholder="Text Area" cols="30" rows="10"></textarea>
                     <li>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11913.77165497895!2d44.7596141!3d41.7109605!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd692430808784a33!2z4YOg4YOQ4YOb4YOU4YOZ4YOQ4YOY!5e0!3m2!1ska!2sge!4v1658943129266!5m2!1ska!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11913.77165497895!2d44.7596141!3d41.7109605!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd692430808784a33!2z4YOg4YOQ4YOb4YOU4YOZ4YOQ4YOY!5e0!3m2!1ska!2sge!4v1658943129266!5m2!1ska!2sge"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </li>
                     </li>
                 </ul>
                 <ul>
                     <form action="">
                         <li>
-                            <input type="radio" checked="checked" name="radio">
-                            <span>accept <span class="privacy-terms-color">terms of privacy</span> <span class="required">*</span></span>
+                            <input type="checkbox" required name="checkbox">
+                            <span>accept <span class="privacy-terms-color">terms of privacy</span> <span
+                                    class="required">*</span></span>
                         </li>
                     </form>
                 </ul>
@@ -124,6 +128,7 @@
             </div>
         </div>
     </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
